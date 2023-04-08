@@ -98,11 +98,11 @@ h2 {
 }
 
 .box {
-    border: #3882f6;
-    border-style: solid;
+    border: #3882f6 5px;
+    border-style: solid;;
     height: 200px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .container2 {
@@ -125,11 +125,87 @@ h2 {
     font-weight: bold;
     color: #1F2937;
 }
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
 
 .card > p {
+    max-width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
     color: grey;
+}
+.cite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    font-size: 36px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cite1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 1000px;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+.ctabox {
+    width: 1000px;
+    height: 150px;
+    background-color:#3882f6;
+    border-radius: 10px;
+}
+.boxinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+}
+
+.buttoncta {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.button2 {
+    border-style: solid;
+    color: white;
+    border-color: white;
+    width: 150px;
+    height: 80%;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 100px;
+    width: 100%;
+    color: white;
 }
